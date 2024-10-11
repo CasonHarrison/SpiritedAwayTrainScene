@@ -6,7 +6,7 @@ Firstly, there is the skybox. A skybox in shaders is a large cube that surrounds
 
 The next feature implemented was a skysphere. In fact the background you see in the video is not the skybox, only the skysphere. With the perspective of the camera I couldn't fit the skybox in a way that matched the source image. Instead, the skybox is just used for the reflections in the water as using the internal normals of the skyphere wasn't giving the right look on the water surface. 
 
-Then I create the water. I create the water surface using plane obj then modifying it with worley noise to look move wave like. The noise octaves also utilize the Time to move and animate over time. Then the water is colored using phong shading and the reflections of the skybox as mentioned earlier.
+Then I create the water. I create the water surface using plane obj then modifying it with worley noise to look more wave like. The noise octaves also utilize the Time to move and animate over time. Then the water is colored using phong shading and the reflections of the skybox as mentioned earlier.
 
 Here is the final product
 <details open="" class="details-reset border rounded-2">
